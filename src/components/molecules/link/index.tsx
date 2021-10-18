@@ -8,7 +8,7 @@ interface Props extends AnchorHTMLAttributes<HTMLAnchorElement> {
 
 export const Link = ({ children, href, ...props }: Props) => {
   return (
-    <NextLink href={'register'}>
+    <NextLink href={href}>
       <a {... props}>{children}</a>
     </NextLink>
   )

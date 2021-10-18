@@ -20,7 +20,7 @@ export const Login = () => {
             <InputText label='senha' type="password" />
             <Button disabled>Log In</Button>
           </form>
-          <Link href='/registrer'>Criar Conta</Link>
+          <Link href='/register'>Criar Conta</Link>
         </TemplateMainHeroSection>
       </TemplateContent>
     </TemplateContainer>
